@@ -24,7 +24,7 @@
     "pm2": "^2.7.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-emotion": "^10.0.0"
+    "react-emotion": ">=9.0.1 <10"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
