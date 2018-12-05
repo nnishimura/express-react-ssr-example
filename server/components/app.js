@@ -1,8 +1,19 @@
 import React from 'react';
+import styled from '@emotion/styled';
+import Button from '@ts-styling/Button';
+
+const Title = styled.h1`
+  font-size: 20px;
+`;
 
 class App extends React.Component {
     render() {
-        return <h1>SSR Hello World</h1>;
+        return (
+          <div>
+            <Title>SSR Hello World</Title>
+            <Button>Buttuon</Button>
+          </div>
+        );
     }
 }
 
